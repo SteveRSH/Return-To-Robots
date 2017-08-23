@@ -1,0 +1,28 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Return To Robots</title>
+  <link rel="stylesheet" href="robots.css">
+</head>
+<body>
+<h1>Currently Employed</h1>
+
+<a href="robots.mustache">Main Page</a>
+<br>
+<a href="umemployed.mustache">Currently Unemployed</a>
+<br><br>
+
+  {{ #noms }}
+  <div id = "holder">
+  <p><img src= "{{avatar}}" ></img></p>
+  <p>{{name}}</p>
+  <p>{{job}}</p>
+  <p>{{company}}</p>
+  </div>
+  {{ /noms }}
+
+
+
+
+</body>
+</html>

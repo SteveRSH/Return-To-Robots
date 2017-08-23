@@ -1,0 +1,17 @@
+#holder {
+  border:1px solid orange;
+  margin-top: 15px;
+  margin-right: 15px;
+  width: 20%;
+  height: 290px;
+  display:inline-block;
+  overflow: hidden;
+  background-color: gray;
+  color: black;
+  margin: 0 auto;
+
+}
+
+p {
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Return To Robots</title>
+  <link rel="stylesheet" href="robots.css">
+</head>
+<body>
+<h1>Currently Looking</h1>
+
+<a href="robots.mustache">Main Page</a>
+<br><br>
+<a href="employed.mustache">Currently Employed</a>
+<br><br>
+
+  {{#noms}}
+  <div id = "holder">
+  <p><img src= "{{avatar}}" ></img></p>
+  <p>{{name}}</p>
+  <p>{{email}}</p>
+  <p>{{phone}}</p>
+  </div>
+  {{/noms}}
+
+
+
+
+
+
+</body>
+</html>
